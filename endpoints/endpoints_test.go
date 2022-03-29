@@ -7,7 +7,7 @@ package endpoints
 import (
 	"testing"
 
-	"golang.org/x/oauth2"
+	"github.com/treno-io/oauth2"
 )
 
 func TestAWSCognitoEndpoint(t *testing.T) {

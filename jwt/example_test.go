@@ -7,7 +7,7 @@ package jwt_test
 import (
 	"context"
 
-	"golang.org/x/oauth2/jwt"
+	"github.com/treno-io/oauth2/jwt"
 )
 
 func ExampleJWTConfig() {

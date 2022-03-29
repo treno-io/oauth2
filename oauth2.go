@@ -6,7 +6,7 @@
 // OAuth2 authorized and authenticated HTTP requests,
 // as specified in RFC 6749.
 // It can additionally grant authorization with Bearer JWT.
-package oauth2 // import "golang.org/x/oauth2"
+package oauth2 // import "github.com/treno-io/oauth2"
 
 import (
 	"bytes"
@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/oauth2/internal"
+	"github.com/treno-io/oauth2/internal"
 )
 
 // NoContext is the default context you should supply if not using

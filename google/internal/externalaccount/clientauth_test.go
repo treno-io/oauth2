@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/oauth2"
+	"github.com/treno-io/oauth2"
 )
 
 var clientID = "rbrgnognrhongo3bi4gb9ghg9g"

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/jws"
+	"github.com/treno-io/oauth2"
+	"github.com/treno-io/oauth2/jws"
 )
 
 func TestJWTFetch_JSONResponse(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/oauth2"
+	"github.com/treno-io/oauth2"
 )
 
 // generateAccesstokenReq is used for service account impersonation
